@@ -270,3 +270,10 @@ Application screenshots and a short 2–3 minute demonstration video will be added
 ### Reports and Analytics
 ![Reports and Analytics](docs/screenshots/reports.png)
 
+
+## Project Demonstration
+
+Watch the 2–3 minute demonstration of Sweety:
+
+[Watch Sweety Demo Video](docs/demo/sweety-demo.mp4)
+
