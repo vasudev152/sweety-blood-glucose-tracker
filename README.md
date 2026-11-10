@@ -255,3 +255,18 @@ It uses an upsert operation, so running it again updates the demo account and it
 
 Application screenshots and a short 2–3 minute demonstration video will be added to the repository.
 
+
+## Application Screenshots
+
+### Login
+![Sweety Login](docs/screenshots/login.png)
+
+### Dashboard
+![Sweety Dashboard](docs/screenshots/dashboard.png)
+
+### Blood Glucose Readings
+![Readings Management](docs/screenshots/readings.png)
+
+### Reports and Analytics
+![Reports and Analytics](docs/screenshots/reports.png)
+
