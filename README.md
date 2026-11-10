@@ -202,3 +202,56 @@ Sweety is a personal glucose-recording and reporting application. It is not a me
 ## Author
 
 Developed as a full-stack web application project.
+
+## Demo Account
+
+After configuring the database and running migrations, execute:
+
+```bash
+cd server
+npm run db:seed
+```
+
+The seed script creates or updates a local demo account and inserts four sample readings for the current date.
+
+**Local demo credentials:**
+
+- Email: `demo@sweety.local`
+- Password: `SweetyDemo@2026`
+
+These credentials are intended only for local evaluation. Change them before using any publicly accessible deployment.
+
+## Database Seeding
+
+The seed script is located at:
+
+`server/prisma/seed.js`
+
+It uses an upsert operation, so running it again updates the demo account and its four sample readings instead of creating duplicate records.
+
+## Notes
+
+### Assumptions
+
+- Each user can record up to four glucose readings per day.
+- Each daily time slot can contain only one reading.
+- Glucose readings are stored as integer values in mg/dl.
+- Users can access only their own readings.
+- The application uses four predefined daily time slots.
+- Reports summarize recorded measurements and do not provide medical diagnoses.
+
+### Future Improvements
+
+- Add password reset and email verification.
+- Improve session management and token storage.
+- Add CSV and PDF report exports.
+- Add configurable glucose reference ranges.
+- Add more advanced historical charts and trends.
+- Improve automated frontend testing.
+- Deploy the frontend, backend and database to cloud hosting.
+- Add stronger monitoring, logging and production security controls.
+
+## Screenshots and Demo
+
+Application screenshots and a short 2–3 minute demonstration video will be added to the repository.
+
